@@ -27,8 +27,8 @@ export default class DisplayCommentbox extends Component {
     console.log(this.props.commentsArray);
     let PostComments = this.props.commentsArray;
     console.log(PostComments);
-    let newPostComments = PostComments.sort((a, b) => b.id - a.id);
-    let List_PostCommnets = PostComments.map(comment => {
+    let newPostComments = PostComments.sort((a, b) => b.likes - a.likes);
+    let List_PostCommnets = newPostComments.map(comment => {
       return (
         <div class="commentText">
           <div key={comment.id}>
