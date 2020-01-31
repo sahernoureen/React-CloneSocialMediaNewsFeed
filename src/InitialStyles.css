@@ -67,9 +67,9 @@
   width: 120px;
 }
 .replyButton {
-  background-color: Transparent;
+  background-color: rgb(160, 204, 206);
   background-repeat: no-repeat;
-  border: none;
+  border: rgb(121, 157, 158);
   cursor: pointer;
   overflow: hidden;
   height: 20px;

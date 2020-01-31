@@ -16,7 +16,7 @@ export default class Navbar extends Component {
       <div class="navbar">
         <SelectuserList
           users={this.state.SelectUserArray}
-          postsArray={this.state.postsArray}
+          postsArray={this.props.PostsData}
         />
       </div>
     );

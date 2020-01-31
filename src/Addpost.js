@@ -6,16 +6,15 @@ export default class Addpost extends Component {
   constructor(props) {
     super(props);
     this.state = {
-      usersArray: this.props.Users,
       selectedUser: this.props.myuser,
       posts: this.props.posts
     };
 
     this.addPost = this.addPost.bind(this);
   }
- 
+
   addPost(e) {
-    let newPostId = this.state.posts.length;
+    let newPostId = this.props.posts.length;
     console.log(this.props.myuser);
     if (this.textarea.value !== "") {
       let newPost = {
@@ -28,7 +27,7 @@ export default class Addpost extends Component {
         time: moment().calendar()
       };
 
-      const newTimeLinePost = [...this.state.posts, newPost];
+      const newTimeLinePost = [...this.props.posts, newPost];
       this.setState({ posts: newTimeLinePost });
       e.preventDefault();
       console.log("here are new posts :" + newTimeLinePost);
@@ -64,7 +63,6 @@ export default class Addpost extends Component {
         <DisplayPosts
           posts={this.state.posts}
           newMessage={this.state.newMessage}
-          Users={this.state.usersArray}
           myuser={this.props.myuser}
         />
       </div>

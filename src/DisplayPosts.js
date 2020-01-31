@@ -9,7 +9,7 @@ export default class DisplayPosts extends Component {
   constructor(props) {
     super(props);
     this.state = {
-      Users: this.props.posts
+      Users: ""
     };
     this.getInitialState = this.getInitialState.bind(this);
     this.onClick = this.onClick.bind(this);
@@ -17,7 +17,6 @@ export default class DisplayPosts extends Component {
   }
   updateLikes = id => {
     let findPost = this.props.posts;
-    //finding movie with the id of liked movie from user and incrementing a count
     findPost.find(postid => postid.id === id).count++;
     this.setState({ Users: findPost });
   };
@@ -32,7 +31,6 @@ export default class DisplayPosts extends Component {
     let timelineMessage = this.props.posts;
     let newtimelineMessage = timelineMessage.sort((a, b) => b.id - a.id);
     let List_timelineMessage = newtimelineMessage.map(post => {
-      console.log(post.likes);
       return (
         <div class="post">
           <p></p>
@@ -54,7 +52,7 @@ export default class DisplayPosts extends Component {
             <ManageLikes
               likes={post.likes}
               id={post.id}
-              posts={this.state.Users}
+              posts={this.props.posts}
               updateLikes={this.updateLikes}
             />
 

@@ -44,7 +44,6 @@ export default class ReplyComment extends Component {
       <div class="newReply">
         <form onSubmit={this.addReply}>
           <div class="ui focus input">
-            {" "}
             <button class="replyButton" onClick={this.onClick}>
               Reply
             </button>

@@ -3,12 +3,7 @@ import React, { Component } from "react";
 export default class Userslist extends Component {
   constructor(props) {
     super(props);
-    console.log(props);
-    this.state = {
-      usersArray: this.props.usersArray
-    };
   }
-
   handleChange = event => {
     let selectedValue = event.target.value;
     this.props.onSelectChange(selectedValue);

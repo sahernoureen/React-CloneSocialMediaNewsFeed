@@ -53,7 +53,6 @@ export default class DisplayCommentbox extends Component {
                 replyArray={comment.reply}
                 myuser={this.props.myuser}
               ></ReplyComment>
-              ;
             </div>
           </div>
         </div>

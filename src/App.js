@@ -91,7 +91,7 @@ const PostsData = [
         by: "https://api.adorable.io/avatars/48/@adorable.io.png",
         time: "",
         reply: [{}],
-        likes: 8
+        likes: 0
       }
     ],
     likes: 5,
@@ -125,7 +125,7 @@ const PostsData = [
         by: require("./pic1.jpg"),
         time: "Today at 10:40 Am",
         reply: [{}],
-        likes: 20
+        likes: 0
       }
     ],
     likes: 5,
@@ -159,10 +159,10 @@ const PostsData = [
         by: `https://api.adorable.io/avatars/48/@adorable.io.png`,
         time: "",
         reply: [{}],
-        likes: 8
+        likes: 0
       }
     ],
-    likes: 3,
+    likes: 0,
     time: "Today at 10:30 Am"
   }
 ];
@@ -195,5 +195,3 @@ export default class App extends Component {
     );
   }
 }
-
-//   <DisplayInitialState PostsData={this.state.PostsData} />

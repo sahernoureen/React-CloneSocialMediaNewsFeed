@@ -28,7 +28,6 @@ export default class Comments extends Component {
       };
 
       const newTimeLineComment = [...this.state.mycommentsArray, newComment];
-
       this.setState({ mycommentsArray: newTimeLineComment });
 
       e.preventDefault();
@@ -46,7 +45,6 @@ export default class Comments extends Component {
             className="ui avatar image"
             alt=""
           />
-
           <form onSubmit={this.addcomment}>
             <div class="ui focus input">
               {" "}

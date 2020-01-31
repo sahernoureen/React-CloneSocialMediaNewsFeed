@@ -3,9 +3,6 @@ import React, { Component } from "react";
 export default class DisplayReply extends Component {
   constructor(props) {
     super(props);
-    this.state = {
-      newReply: this.props.replyArray
-    };
   }
 
   render() {

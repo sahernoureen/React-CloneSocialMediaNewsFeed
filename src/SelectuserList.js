@@ -7,9 +7,7 @@ export default class SelectuserList extends Component {
     super(props);
 
     this.state = {
-      selectedValue: " ",
-      Users: this.props.users,
-      post: this.props.postsArray
+      selectedValue: " "
     };
   }
 
@@ -23,12 +21,12 @@ export default class SelectuserList extends Component {
     return (
       <div>
         <Userslist
-          usersArray={this.state.Users}
+          usersArray={this.props.users}
           onSelectChange={this.handleSelectChange}
         />{" "}
         <Addpost
           myuser={this.state.selectedValue}
-          Users={this.state.Users}
+          Users={this.props.users}
           posts={this.props.postsArray}
         />
       </div>
