@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/React-CloneSocialMediaNewsFeed/static/css/main.4c5fe687.chunk.css",
+    "main.js": "/React-CloneSocialMediaNewsFeed/static/js/main.6946167e.chunk.js",
+    "main.js.map": "/React-CloneSocialMediaNewsFeed/static/js/main.6946167e.chunk.js.map",
+    "runtime-main.js": "/React-CloneSocialMediaNewsFeed/static/js/runtime-main.76096259.js",
+    "runtime-main.js.map": "/React-CloneSocialMediaNewsFeed/static/js/runtime-main.76096259.js.map",
+    "static/css/2.1a08bad1.chunk.css": "/React-CloneSocialMediaNewsFeed/static/css/2.1a08bad1.chunk.css",
+    "static/js/2.8cd2d239.chunk.js": "/React-CloneSocialMediaNewsFeed/static/js/2.8cd2d239.chunk.js",
+    "static/js/2.8cd2d239.chunk.js.map": "/React-CloneSocialMediaNewsFeed/static/js/2.8cd2d239.chunk.js.map",
+    "index.html": "/React-CloneSocialMediaNewsFeed/index.html",
+    "precache-manifest.2c043139f89832a620b9dad648e2d0e3.js": "/React-CloneSocialMediaNewsFeed/precache-manifest.2c043139f89832a620b9dad648e2d0e3.js",
+    "service-worker.js": "/React-CloneSocialMediaNewsFeed/service-worker.js",
+    "static/css/2.1a08bad1.chunk.css.map": "/React-CloneSocialMediaNewsFeed/static/css/2.1a08bad1.chunk.css.map",
+    "static/css/main.4c5fe687.chunk.css.map": "/React-CloneSocialMediaNewsFeed/static/css/main.4c5fe687.chunk.css.map",
+    "static/js/2.8cd2d239.chunk.js.LICENSE": "/React-CloneSocialMediaNewsFeed/static/js/2.8cd2d239.chunk.js.LICENSE",
+    "static/media/pic2.jpg": "/React-CloneSocialMediaNewsFeed/static/media/pic2.082ab864.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.76096259.js",
+    "static/css/2.1a08bad1.chunk.css",
+    "static/js/2.8cd2d239.chunk.js",
+    "static/css/main.4c5fe687.chunk.css",
+    "static/js/main.6946167e.chunk.js"
+  ]
+}
