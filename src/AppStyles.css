@@ -1,0 +1,41 @@
+body {
+  width: 500px;
+  margin: auto;
+}
+.navbar {
+  width: 500px;
+  height: 20px;
+  margin: auto;
+
+  background-color: rgb(190, 233, 235);
+}
+.newPost {
+  width: 503px;
+  margin: auto;
+  border-style: solid;
+  border-color: rgb(211, 218, 218);
+}
+textarea {
+  width: 500px;
+  height: 90px;
+  margin: auto;
+}
+.button {
+  text-align: right;
+}
+.newComment {
+  width: 442px;
+  margin: auto;
+  margin-left: 10px;
+  border-style: solid;
+  border-color: rgb(211, 218, 218);
+}
+.txtArea {
+  width: 440px;
+  height: 30px;
+  margin: auto;
+}
+
+.commentText {
+  margin-left: 20px;
+}

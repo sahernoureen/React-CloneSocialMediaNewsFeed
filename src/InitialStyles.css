@@ -1,0 +1,80 @@
+.header {
+  width: 500px;
+  margin: Aut0;
+  background-color: cadetblue;
+  height: 40px;
+  text-align: center;
+  line-height: 2em;
+  font-size: large;
+  padding-right: 5px;
+}
+.post {
+  background-color: aliceblue;
+  width: 500px;
+  margin: auto;
+  border-color: aqua;
+  border-style: inset;
+  margin-bottom: 10px;
+  margin-top: 15px;
+  height: auto;
+}
+
+.commentbar {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: 10px;
+  border-style: solid;
+  border-color: cadetblue;
+}
+.reactions {
+  margin-top: 15px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.likes {
+  width: 200px;
+  margin-left: 30px;
+  margin-top: 20px;
+}
+.commentButton {
+  width: 200px;
+}
+.postmsg,
+.posttime {
+  width: 450px;
+  margin-left: 50px;
+  text-align: left;
+}
+.commentText {
+  height: auto;
+  margin-bottom: 10px;
+}
+.commentLikes {
+  margin-top: 10px;
+  width: 120px;
+}
+.replyBox {
+  margin-left: 150px;
+}
+
+.replyBox,
+.replyArea {
+  height: 15px;
+  width: 120px;
+}
+.replyButton {
+  background-color: Transparent;
+  background-repeat: no-repeat;
+  border: none;
+  cursor: pointer;
+  overflow: hidden;
+  height: 20px;
+  font-size: smaller;
+}
+.newReply {
+  width: 400px;
+}
