@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "0b28ea08cd0bad3e38a60fb544df6531",
+    "revision": "2655a870c09ebeacd7def62f594a6534",
     "url": "/React-CloneSocialMediaNewsFeed/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/React-CloneSocialMediaNewsFeed/static/css/2.1a08bad1.chunk.css"
   },
   {
-    "revision": "fb368e3969005d6a98f7",
+    "revision": "90be00a0db9934830baf",
     "url": "/React-CloneSocialMediaNewsFeed/static/css/main.4c5fe687.chunk.css"
   },
   {
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/React-CloneSocialMediaNewsFeed/static/js/2.8cd2d239.chunk.js.LICENSE"
   },
   {
-    "revision": "fb368e3969005d6a98f7",
-    "url": "/React-CloneSocialMediaNewsFeed/static/js/main.6946167e.chunk.js"
+    "revision": "90be00a0db9934830baf",
+    "url": "/React-CloneSocialMediaNewsFeed/static/js/main.6c7d251c.chunk.js"
   },
   {
     "revision": "297d83be747c62784ec1",
